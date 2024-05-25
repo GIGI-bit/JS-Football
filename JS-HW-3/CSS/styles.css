@@ -1,0 +1,41 @@
+/* .widget {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: white;
+}
+.change-color {
+  padding: 10px 20px;
+  border: none;
+} */
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.field {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
